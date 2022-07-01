@@ -1,0 +1,376 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#navbar{
+  width: 100%;
+  height: 80px;
+  background:rgb(0,160,0);
+
+}
+#navbar img{
+  height: 50px;
+  width: 150px;
+  object-fit:cover;
+  object-position: center;
+}
+.logo{
+  background-color: white;
+  font-size: 2rem;
+  margin:20px 0 20px 50px;
+  text-decoration:none;
+
+
+}
+.banner{
+  display: flex;
+  width: 100%;
+
+}
+.heading{
+  flex:50%;
+  height: 500px;
+
+ background:rgb(225,164,43);
+
+}
+
+.heading h1{
+font-size: 3.5rem;
+ width: 80%;
+ margin:20px auto;
+ padding-top: 20px;
+ font-family: 'Monoton', cursive;
+ color: green;
+ word-spacing: 3px;
+}
+.heading p{
+font-family: 'Fredoka One', cursive;
+color:rgb(0,90,0);
+  font-size: 2rem;
+  width:50%;
+  margin-left:58px;
+}
+.heading img{
+   height: 100%;
+   width:100%;
+   object-fit:cover;
+
+}
+.first-sec{
+  width: 80%;
+  margin: 0 auto;
+  padding:40px 0 40px 0;
+
+}
+
+.first-sec label{
+  font-size: 20px;
+  font-family: 'Roboto', cursive;
+  font-weight: bolder;
+   color:rgb(80,80,80);
+
+}
+.first-sec p{
+  font-size: 20px;
+  padding-bottom: 10px;
+ font-family: 'Poppins', sans-serif;
+ color:rgb(80,80,80);
+ font-weight: bolder;
+}
+.first-sec button{
+  margin-top: 20px;
+  padding: 10px 30px;
+   font-family: 'Poppins', sans-serif;
+   background-color: green;
+   color:white;
+   border: none;
+   font-size: 18px;
+
+}
+.first-sec h2{
+font-family: 'Roboto', cursive;
+  color:green;
+  font-size: 3rem;
+
+}
+.banner2{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 30px 0;
+}
+.banner2 img{
+  height: 300px;
+  flex-grow: 1;
+
+}
+.banner-text{
+  margin-left: 60px;
+}
+.banner-text h3{
+  font-size: 3rem;
+  margin:0;
+  font-family: 'Roboto', cursive;
+    color:green;
+}
+.banner-text p{
+  font-size:1.2rem;
+ color:rgb(80,80,80);
+ font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 4px;
+}
+.section-third{
+  padding: 30px 0 40px 0;
+  background: rgba(200, 200, 100, .5);
+}
+.promo{
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0 20px 0;
+}
+.promo h3{
+  font-family: 'Roboto', cursive;
+    color:green;
+  font-size: 3rem;
+  margin: 0;
+}
+.promo p{
+  color:rgb(80,80,80);
+  font-weight: bolder;
+   font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+.project-tile{
+  width:80%;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+}
+.project-tile h3{
+  font-size: 1.5rem;
+  font-family: 'Roboto', cursive;
+    color:green;
+
+}
+.project-tile p{
+  font-size: 20px;
+  color:rgb(80,80,80);
+  font-weight: bolder;
+   font-family: 'Poppins', sans-serif;
+}
+.project-tile button{
+  padding: 10px 50px;
+  font-family: 'Poppins', sans-serif;
+background: green;
+border: none;
+color:white;
+font-size: 20px;
+}
+.projects-link-left {
+
+  flex: 25%;
+
+ margin-right: 50px;
+  border:1px;
+
+
+}
+
+.projects-link-middle{
+
+ margin-right: 50px;
+  flex: 25%;
+
+
+}
+
+
+.projects-link-right {
+
+
+  flex: 25%;
+
+
+}
+
+.project-img{
+  width: 100%;
+  height:300px;
+ object-fit:fill;
+  display: block;
+
+
+
+}
+footer{
+padding: 20px 0 20px 0;
+background-color: green;
+}
+.support{
+  width: 80%;
+  margin: 20px auto;
+  list-style: none;
+
+}
+.support li{
+   margin-bottom: 10px;
+}
+.support li a{
+
+  font-size: 20px;
+  color: white;
+
+  font-weight: bolder;
+   font-family: 'Poppins', sans-serif;
+
+}
+.support li a:not(.addres){
+  text-decoration: none;
+  margin: 0;
+
+}
+
+
+
+@media screen and (max-width:768px){
+  .banner{
+    display: block;
+    width: 100%;
+
+  }
+  .heading{
+
+    height: 500px;
+
+   background:rgb(225,164,43);
+
+  }
+
+  .heading h1{
+  font-size: 3.5rem;
+   width: 80%;
+
+   margin:0 auto;
+   padding-top: 20px;
+   font-family: 'Monoton', cursive;
+   color: green;
+
+  }
+  .heading p{
+  font-family: 'Fredoka One', cursive;
+  color:rgb(0,90,0);
+    font-size: 2rem;
+    margin-left: 70px;
+
+  }
+  .first-sec h2{
+
+    font-size: 2.5rem;
+
+  }
+  .banner2{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 0;
+  }
+  .banner2 img{
+    height: 300px;
+    width: 100%;
+
+
+
+  }
+  .banner-text{
+    margin-left: 0px;
+  }
+  .banner-text h3{
+    font-size: 2.2rem;
+
+    margin-top: 10px;
+    font-family: 'Roboto', cursive;
+      color:green;
+  }
+  .banner-text p{
+    font-size:1.2rem;
+
+    margin-bottom: 18px;
+  }
+
+  .promo h3{
+
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  .promo p{
+    color:rgb(80,80,80);
+    font-weight: bolder;
+     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+  }
+  .project-tile button{
+
+    font-size: 15px;
+    padding:10px;
+
+  }
+  .project-tile{
+    width:80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+  }
+  .project-tile h3{
+    font-size: 1rem;
+
+
+  }
+  .project-tile p{
+    font-size: 14px;
+
+  }
+
+  .projects-link-left {
+
+    flex: 25%;
+
+   margin-right: 50px;
+    border:1px;
+
+
+  }
+
+  .projects-link-middle{
+
+   margin-right: 50px;
+    flex: 25%;
+
+
+  }
+
+
+  .projects-link-right {
+
+
+    flex: 25%;
+
+
+  }
+
+  .project-img{
+    width: 100%;
+    height:200px;
+   object-fit:fill;
+    display: block;
+
+
+
+  }
+
+
+}
